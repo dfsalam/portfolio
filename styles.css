@@ -1,43 +1,49 @@
+body {
+  margin: 0;
+}
+
 .navbar {
-  background: #3C3A39;
+  background: #3c3a39;
   height: 48px;
-  display: flex;
-}
-
-.nav-name {
-  font-family: 'Roboto', sans-serif ;
-  font-size: 18px;
-  color: #FFFFFF;
-}
-
-.nav-menu {
-  justify-items:flex-end;
-}
-
-.status-bar {
-  background: #3C3A39;
-  height: 44px;
   display: flex;
   align-items: center;
 }
 
-.hour {
+.nav-name {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
+}
+
+.nav-space {
+  flex-grow: 1;
+}
+
+.nav-menu {
+  margin-right: 25px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
 }
 
 .container {
-  height: 590px;
-  background: #1C1A19;  
+  height: 100vh;
+  background: #1c1a19;
   background-image: url('./Images/Background.png');
   background-repeat: no-repeat;
-  background-size:initial;
-  background-attachment: fixed;
+  background-size: initial;
   background-position: bottom right;
-  height: 590px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -47,21 +53,29 @@
   margin-bottom: 10px;
   font-family: 'Crete Round', sans-serif;
   font-size: 56px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .supporting-text {
   margin-left: 20px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 .description {
   margin-left: 20px;
   margin-right: 20px;
-  font-family: 'Poppins';
-  font-size: 15px;
-  color: #FFFFFF;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.icons {
+  margin-left: 20px;
+  width: 220px;
+  display: flex;
+  justify-content: space-around;
 }
