@@ -1,0 +1,67 @@
+.navbar {
+  background: #3C3A39;
+  height: 48px;
+  display: flex;
+}
+
+.nav-name {
+  font-family: 'Roboto', sans-serif ;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.nav-menu {
+  justify-items:flex-end;
+}
+
+.status-bar {
+  background: #3C3A39;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.hour {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.container {
+  height: 590px;
+  background: #1C1A19;  
+  background-image: url('./Images/Background.png');
+  background-repeat: no-repeat;
+  background-size:initial;
+  background-attachment: fixed;
+  background-position: bottom right;
+  height: 590px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.primary-text {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+  color: #FF6B00;
+}
+
+.supporting-text {
+  margin-left: 20px;
+  margin-bottom: 10px; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #FFF5E1;
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: #FFFFFF;
+}
