@@ -338,6 +338,11 @@ a:visited {
 .form-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
 }
 
 .form-name {
@@ -356,5 +361,20 @@ a:visited {
   background-color: #fbf8f7;
   width: 327px;
   height: 114px;
-  margin: 10px;
+  margin-left:24px;
+
 }
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center ;
+  align-self: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+}
+
