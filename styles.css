@@ -324,3 +324,37 @@ a:visited {
   align-items: center;
   height: 300px;
 }
+
+.form h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-name {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.form-email {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.form-comment {
+  background-color: #fbf8f7;
+  width: 327px;
+  height: 114px;
+  margin: 10px;
+}
