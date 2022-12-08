@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  max-width: 375px;
 }
 
 button {
@@ -41,15 +40,34 @@ a:visited {
   color: #fff;
 }
 
+/* Header */
+.container {
+  height: 590px;
+  background: #1c1a19;
+  background-image: url('./Images/Background.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Navbar */
+.nav-media {
+  display: none;
+}
+
 .navbar {
   background: #3c3a39;
   height: 48px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .nav-name {
+  display: initial;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -64,21 +82,12 @@ a:visited {
 
 .nav-menu {
   margin-right: 25px;
+  align-self: center;
 }
+
+/* Navbar */
 
 /* Header */
-.container {
-  height: 100vh;
-  background: #1c1a19;
-  background-image: url('./Images/Background.png');
-  background-repeat: no-repeat;
-  background-size: initial;
-  background-position: bottom right;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .primary-text {
   margin-left: 20px;
   margin-bottom: 10px;
@@ -113,17 +122,19 @@ a:visited {
 
 .middle-section {
   display: grid;
-  grid-template-rows: 899px 386px 386px 386px 386px 386px 386px 1901px;
-  grid-template-columns: 375px;
-  margin: 0 24px 24px 0;
+  grid-template-rows: 950px 386px 386px 386px 386px 386px 386px;
+  grid-template-columns: auto;
+  margin: 0 24px 24px 24px;
 }
+
+/* Header */
 
 /* Works section */
 .works {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
   margin-bottom: 24px;
 }
 
@@ -132,14 +143,27 @@ a:visited {
   font-weight: 400;
   font-size: 40px;
   color: #1c1a19;
-  border-bottom: 1px solid #989898;
-  padding-bottom: 40px;
-  margin-bottom: 80px;
+  padding-bottom: 25px;
+}
+
+.works-line {
+  width: 100%;
+  height: 1px;
+  max-width: 770px;
+  min-width: 327px;
 }
 
 .works-image1 {
-  max-width: 327px;
-  margin-bottom: 24px;
+  width: 327px;
+  height: auto;
+  margin: 80px 24px 24px 24px;
+}
+
+.works-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 448px;
 }
 
 .works-subtitle {
@@ -147,7 +171,6 @@ a:visited {
   font-weight: 400;
   font-size: 32px;
   color: #091e42;
-  margin: 0;
 }
 
 .works-paragraph {
@@ -156,8 +179,6 @@ a:visited {
   font-weight: 400;
   font-size: 16px;
   color: #091e42;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .works-stack {
@@ -167,7 +188,7 @@ a:visited {
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
-  margin-left: -60px;
+  padding: 0;
 }
 
 .works-stack-li {
@@ -180,19 +201,67 @@ a:visited {
 
 .works-button {
   align-self: flex-start;
-  margin-left: 24px;
 }
 
 /* Card section */
-.card {
+.card1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url('./Images/Img Placeholder.png');
+  width: 369px;
+  background-image: url('./Images/Cards/Mask_1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 24px;
-  margin-right: 24px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 369px;
+  background-image: url('./Images/Cards/Mask_2-5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 369px;
+  background-image: url('./Images/Cards/Mask_3-6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 369px;
+  background-image: url('./Images/Cards/Mask_4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 369px;
+  background-image: url('./Images/Cards/Mask_2-5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 369px;
+  background-image: url('./Images/Cards/Mask_3-6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-title {
@@ -202,6 +271,7 @@ a:visited {
   font-size: 32px;
   color: #fff;
   margin-left: 16px;
+  padding: 0;
 }
 
 .card-paragraph {
@@ -212,6 +282,7 @@ a:visited {
   color: #fff;
   margin-left: 16px;
   margin-right: 16px;
+  padding: 0;
 }
 
 .card-stack {
@@ -413,4 +484,9 @@ a:visited {
   display: flex;
   justify-content: center;
   align-content: flex-end;
+}
+
+.finalbar svg {
+  width: 100%;
+  height: auto;
 }

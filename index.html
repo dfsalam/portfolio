@@ -8,20 +8,37 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./desktop.css">
   <title>Portfolio</title>
 </head>
 <body>
+
   <nav class="navbar">     
-    <h1 class="nav-name"><a href="#">Jhon Doe</a></h1>
-    <div class="nav-space"></div>
-    <div class="nav-menu"><img src="./Images/menu.png" height="30px"></div>        
+    <h3 class="nav-name"><a href="#">Jhon Doe</a></h3>
+    <svg class="nav-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z" fill="white"/>
+    </svg>
+      
+    <!-- @media elements-->
+    <section class="nav-media">
+      <h3>Portfolio</h3>        
+      <h3>About</h3>
+      <h3>Contact</h3>    
+      <svg class="nav-mail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.4 5H16.6C17.7531 5 18.4977 5.00156 19.0643 5.04785C19.6077 5.09225 19.8091 5.1676 19.908 5.21799C20.2843 5.40973 20.5903 5.71569 20.782 6.09202C20.8324 6.19091 20.9078 6.39235 20.9521 6.93567C20.9984 7.50235 21 8.24689 21 9.4V14.6C21 15.7531 20.9984 16.4977 20.9521 17.0643C20.9078 17.6077 20.8324 17.8091 20.782 17.908C20.5903 18.2843 20.2843 18.5903 19.908 18.782C19.8091 18.8324 19.6077 18.9078 19.0643 18.9521C18.4977 18.9984 17.7531 19 16.6 19H7.4C6.24689 19 5.50235 18.9984 4.93567 18.9521C4.39235 18.9078 4.19091 18.8324 4.09202 18.782C3.71569 18.5903 3.40973 18.2843 3.21799 17.908C3.1676 17.8091 3.09225 17.6077 3.04785 17.0643C3.00156 16.4977 3 15.7531 3 14.6V9.4C3 8.24689 3.00156 7.50235 3.04785 6.93567C3.09225 6.39235 3.1676 6.19091 3.21799 6.09202C3.40973 5.71569 3.71569 5.40973 4.09202 5.21799C4.19091 5.1676 4.39235 5.09225 4.93567 5.04785C5.50235 5.00156 6.24689 5 7.4 5ZM1 9.4C1 7.15979 1 6.03969 1.43597 5.18404C1.81947 4.43139 2.43139 3.81947 3.18404 3.43597C4.03969 3 5.15979 3 7.4 3H16.6C18.8402 3 19.9603 3 20.816 3.43597C21.5686 3.81947 22.1805 4.43139 22.564 5.18404C23 6.03969 23 7.15979 23 9.4V14.6C23 16.8402 23 17.9603 22.564 18.816C22.1805 19.5686 21.5686 20.1805 20.816 20.564C19.9603 21 18.8402 21 16.6 21H7.4C5.15979 21 4.03969 21 3.18404 20.564C2.43139 20.1805 1.81947 19.5686 1.43597 18.816C1 17.9603 1 16.8402 1 14.6V9.4ZM6.5547 7.16795C6.09517 6.8616 5.4743 6.98577 5.16795 7.4453C4.8616 7.90483 4.98577 8.5257 5.4453 8.83205L11.4453 12.8321C11.7812 13.056 12.2188 13.056 12.5547 12.8321L18.5547 8.83205C19.0142 8.5257 19.1384 7.90483 18.8321 7.4453C18.5257 6.98577 17.9048 6.8616 17.4453 7.16795L12 10.7981L6.5547 7.16795Z" fill="white"/>
+      </svg>
+    </section>
+    <!-- @media elements-->
   </nav>
+
   <section class="container">
-    <h1 class="primary-text">Hey There. I’m Alex</h1>
-    <h2 class="supporting-text">I’am a Software Developer</h2>
-    <p class="description">I can help you build a product , feature or website. 
-      Look through some of my work and experience! If you like what you see and have a project you need coded, 
-      don’t hesitate to contact me.</p>
+    <section>
+      <h1 class="primary-text">Hey There. I’m Alex</h1>
+      <h2 class="supporting-text">I’am a Software Developer</h2>
+      <p class="description">I can help you build a product , feature or website. 
+        Look through some of my work and experience! If you like what you see and have a project you need coded, 
+        don’t hesitate to contact me.</p>
+    </section>
     <div class="icons">
       <img src="./Images/Icon -GitHub.png">
       <img src="./Images/Icon - Linkedin.png">
@@ -35,41 +52,35 @@
     <!-- Works -->
     <section class="works">
       <h1 class="works-title">My Recent Works</h1>
-      <div class="works-image1">
-        <img src="./Images/works-image-1.png" alt="Image1">
-      </div>
-      <h2 class="works-subtitle">Multi-Post Stories</h2>
-      <p class="works-paragraph">A daily selection of privately personalized reads; 
-        no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a standard dummy text.
-      </p>
-      <ul class="works-stack">
-        <li class="works-stack-li">css</li>
-        <li class="works-stack-li">html</li>
-        <li class="works-stack-li">bootstrap</li>
-        <li class="works-stack-li">Ruby</li>
-      </ul>
-      <button class="works-button" type="button">See Project</button>    
+      
+      <img src="./Images/Vector.png" alt="Line" class="works-line">
+        
+      <img src="./Images/works-image-1.png" alt="Image1" class="works-image1">
+      
+      <section class="works-subsection">
+        <h2 class="works-subtitle">Multi-Post Stories</h2>
+        <p class="works-paragraph">A daily selection of privately personalized reads; 
+          no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="works-stack">
+          <li class="works-stack-li">css</li>
+          <li class="works-stack-li">html</li>
+          <li class="works-stack-li">bootstrap</li>
+          <li class="works-stack-li">Ruby</li>
+        </ul>
+        <button class="works-button" type="button">See Project</button>
+      </section>    
     </section>
     <!-- Works -->
     <!-- Card 1 -->
-    <section class="card">
-      <h1 class="card-title">Profesional Art Printing Data</h1>
-      <p class="card-paragraph">A daily selection of privately
-        personalized read; no accounts or sign-ups required. has
-        been the industry standard
-      </p>
-      <ul class="card-stack">
-        <li class="card-stack-li">html</li>
-        <li class="card-stack-li">bootstrap</li>
-        <li class="card-stack-li">Ruby</li>
-      </ul>
+    <section class="card1">
       <button type="button">See Project</button>
     </section>
     <!-- Card 1 -->
     <!-- Card 2 -->
-    <section class="card">
-      <h1 class="card-title">Profesional Art Printing Data</h1>
+    <section class="card2">
+      <h1 class="card-title">Data Dashboard Healthcare</h1>
       <p class="card-paragraph">A daily selection of privately
         personalized read; no accounts or sign-ups required. has
         been the industry standard
@@ -83,8 +94,8 @@
     </section>
     <!-- Card 2 -->
     <!-- Card 3 -->
-    <section class="card">
-      <h1 class="card-title">Profesional Art Printing Data</h1>
+    <section class="card3">
+      <h1 class="card-title">Website Portfolio</h1>
       <p class="card-paragraph">A daily selection of privately
         personalized read; no accounts or sign-ups required. has
         been the industry standard
@@ -98,8 +109,8 @@
     </section>
     <!-- Card 3 -->
     <!-- Card 4 -->
-    <section class="card">
-      <h1 class="card-title">Profesional Art Printing Data</h1>
+    <section class="card4">
+      <h1 class="card-title">Profesional Art Printing Data More</h1>
       <p class="card-paragraph">A daily selection of privately
         personalized read; no accounts or sign-ups required. has
         been the industry standard
@@ -113,8 +124,8 @@
     </section>
     <!-- Card 4 -->
     <!-- Card 5 -->
-    <section class="card">
-      <h1 class="card-title">Profesional Art Printing Data</h1>
+    <section class="card5">
+      <h1 class="card-title">Data Dashboard Healthcare</h1>
       <p class="card-paragraph">A daily selection of privately
         personalized read; no accounts or sign-ups required. has
         been the industry standard
@@ -128,8 +139,8 @@
     </section>
     <!-- Card 5 -->
     <!-- Card 6 -->
-    <section class="card">
-      <h1 class="card-title">Profesional Art Printing Data</h1>
+    <section class="card6">
+      <h1 class="card-title">Website Portfolio</h1>
       <p class="card-paragraph">A daily selection of privately
         personalized read; no accounts or sign-ups required. has
         been the industry standard
@@ -142,59 +153,63 @@
       <button type="button">See Project</button>
     </section>
     <!-- Card 6 -->
-    <!-- About -->
-    <section class="about">
-      <section class="about-me">
-        <h1 class="about-me-title">About me</h1>
-        <p class="about-me-paragraph">Hello I’m a software developer! I can help you build a product , 
-          feature or website Look through some of my work and experience! If you like what you 
-          see and have a project you need coded, don’t hestiate to contact me.
-        </p>
-        <button class="about-me-button" type="button">Get My Resume</button>
-      </section>
-    
-      <section class="languages">
-        <ul class="languages-li">
-          <li><svg class="rombo" width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0.772461" y="12.7279" width="18" height="18" transform="rotate(-45 0.772461 12.7279)" fill="#FF6B00"/>
-            </svg>
-            Language</li>
-            <ul class="languages-sub-li">
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>Css</li>
-            </ul>
-          <li><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect y="0.455811" width="18" height="18" fill="#FF6B00"/>
-            </svg>
-            Frameworks</li>
-            <ul class="languages-sub-li">
-              <li>Bootstrap</li>
-              <li>Ruby on rails</li>
-              <li>RSpec</li>
-              <li>Capybara</li>
-              <li>Selenium</li>
-            </ul>
-          <li><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect y="0.455811" width="18" height="18" rx="9" fill="#FF6B00"/>
-            </svg>
-            Skills</li>
-            <ul class="languages-sub-li">
-              <li>Codekit</li>
-              <li>Github</li>
-              <li>Codepen</li>
-              <li>Gitlab</li>
-              <li>Terminal</li>
-            </ul>
-            
-        </ul>
-      </section>
-    </section>
-    <!-- About -->  
+     
   <!--Middle section-->  
   </section>
-
+  <!-- About -->
+  <section class="about">
+    <section class="about-me">
+      <h1 class="about-me-title">About me</h1>
+      <p class="about-me-paragraph">Hello I’m a software developer! I can help you build a product , 
+        feature or website Look through some of my work and experience! If you like what you 
+        see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <button class="about-me-button" type="button">Get My Resume</button>
+    </section>
+  
+    <section class="languages">
+      <ul class="languages-li">
+        <li><svg class="rombo" width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.772461" y="12.7279" width="18" height="18" transform="rotate(-45 0.772461 12.7279)" fill="#FF6B00"/>
+          </svg>
+          Language</li>
+          <ul class="languages-sub-li">
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>Css</li>
+          </ul>
+      </ul>
+      <ul class="languages-li">
+        <li><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect y="0.455811" width="18" height="18" fill="#FF6B00"/>
+          </svg>
+          Frameworks</li>
+          <ul class="languages-sub-li">
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Selenium</li>
+          </ul>
+      </ul>
+      <ul class="languages-li">
+        <li><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect y="0.455811" width="18" height="18" rx="9" fill="#FF6B00"/>
+          </svg>
+          Skills</li>
+          <ul class="languages-sub-li">
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+      </ul>    
+      </ul>
+    </section>
+  </section>
+  <!-- About --> 
   <section class="form">
     <h2>I'm always interested in hearing about new projects, 
       so if you'd like to chat please get in touch.</h2>
