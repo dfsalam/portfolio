@@ -254,6 +254,10 @@ a:visited {
   background-size: cover;
 }
 
+.card5:hover {
+  transform: scale(1.3);
+}
+
 .card6 {
   display: flex;
   flex-direction: column;
