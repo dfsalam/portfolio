@@ -114,11 +114,16 @@
 
   .works-image1 {
     margin: 0;
+    margin-left: -120px;
     margin-right: 24px;
   }
 
   .works-line {
     margin-bottom: 24px;
+  }
+
+  .works-subsection {
+    margin-right: -120px;
   }
 
   .card1 {
