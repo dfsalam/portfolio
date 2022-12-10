@@ -209,6 +209,10 @@
     margin-bottom: 24px;
   }
 
+  .btn {
+    align-self: flex-start;
+  }
+
   .finalbar {
     display: none;
   }
