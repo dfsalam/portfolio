@@ -164,8 +164,12 @@
   .card6 {
     margin-left: 0;
     margin-right: 0;
-    max-width: 332px;
+    max-width: 352px;
     aspect-ratio: 369/435;
+  }
+
+  .about {
+    height: auto;
   }
 
   .about-me {
@@ -183,7 +187,7 @@
   .languages {
     flex-direction: row;
     justify-content: space-around;
-    height: 100vh;
+    height: 604px;
     align-content: center;
   }
 
