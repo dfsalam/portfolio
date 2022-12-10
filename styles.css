@@ -310,6 +310,7 @@ a:visited {
 /* About me section */
 .about {
   background-color: #1c1a19;
+  height: 1901px;
 }
 
 .about-me {
@@ -355,10 +356,9 @@ a:visited {
   margin-left: 24px;
   align-self: flex-start;
   margin-bottom: 200px;
-  
 }
 
-.about-me-button:hover{
+.about-me-button:hover {
   transition: 1s;
   box-shadow: 10px;
   text-shadow: 1px 1px;
@@ -381,9 +381,9 @@ a:visited {
   color: #fff;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: column;
-  height: 100px;
+  height: 120px;
   align-items: center;
   margin-left: -50px;
   margin-top: 120px;
@@ -392,6 +392,7 @@ a:visited {
 .languages-li li {
   margin-bottom: 30px;
   margin-left: -20px;
+  margin-top: 0;
 }
 
 .languages-sub-li {
@@ -405,7 +406,10 @@ a:visited {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  height: 300px;
+}
+
+.languages div {
+  margin-bottom: 30px;
 }
 
 .form {
@@ -433,7 +437,7 @@ a:visited {
   flex-direction: column;
   align-items: center;
   padding: 0;
-  margin: 58px 0px 0 24px;
+  margin: 58px 0 0 24px;
   max-width: 300px;
   height: 330px;
 }

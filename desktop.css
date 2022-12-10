@@ -112,7 +112,7 @@
     margin-bottom: 24px;
   }
 
-  .works-image1 {    
+  .works-image1 {
     margin: 0;
     margin-right: 24px;
   }
@@ -177,14 +177,16 @@
 
   .languages {
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
     height: 100vh;
     align-content: center;
   }
 
   .languages-li {
-    margin-top: -120px;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-around;
   }
 
   .form {
@@ -212,4 +214,3 @@
     width: 610px;
   }
 }
-
