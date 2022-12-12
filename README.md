@@ -47,6 +47,7 @@
 - [Run tests](#run-tests)
 
 - [Deployment](#triangular_flag_on_post-deployment)
+[My link to my portfolio with github pages] (https://dfsalam.github.io/portfolio/)
 
 - [👥 Authors](#authors)
 
