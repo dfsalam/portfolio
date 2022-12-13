@@ -5,11 +5,7 @@
 
   
 
-<img  src="murple_logo.png"  alt="logo"  width="140"  height="auto"  />
 
-<br/>
-
-  
 
 <h3><b>README</b></h3>
 
@@ -300,12 +296,7 @@ I would like to thank all my coding partners at Microverse.
 
  
 
-## 📝 License <a name="license"></a>
-
-  
-
-This project is [MIT](./LICENSE) licensed.
-
-  
+## 📝 License <a name="license"></a>  
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.  
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
