@@ -47,7 +47,7 @@
 - [Run tests](#run-tests)
 
 - [Deployment](#triangular_flag_on_post-deployment)
-[My link to my portfolio with github pages] (https://dfsalam.github.io/portfolio/)
+[The link to my portfolio with github pages] (https://dfsalam.github.io/portfolio/)
 
 - [👥 Authors](#authors)
 
@@ -97,7 +97,7 @@
 
 <ul>
 
-<li><a  href="https://reactjs.org/">HTML and CSS</a></li>
+<li><a  href="">HTML and CSS</a></li>
 
 </ul>
 
@@ -125,7 +125,7 @@
 
 <ul>
 
-<li><a  href="https://www.postgresql.org/">There isn´t server.</a></li>
+<li><a  href="">There isn´t server.</a></li>
 
 </ul>
 
@@ -155,7 +155,7 @@
 
  
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo" href='https://dfsalam.github.io/portfolio/'></a>
 
   
 
