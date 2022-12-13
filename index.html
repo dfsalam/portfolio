@@ -222,10 +222,16 @@
       so if you'd like to chat please get in touch.</h2>
 
     <form class="form-container" action="https://formspree.io/f/xoqbgwkd" method="post">
+      <label for="name" hidden>Username input</label>
       <input class="form-name" type="text" name="name" placeholder="Full name" maxlength="30" required>
+      
+      <label for="email" hidden>Email input</label>
       <input class="form-email" type="email" name="email" placeholder="Email adress" required>
+
+      <label for="message" hidden>Comment area</label>
       <textarea class="form-comment" name="message" maxlength="500" rows="10"
       placeholder="Enter text here"></textarea>
+      
       <button class="btn" type="submit">Get in touch</button>
     </form>
   </section>
