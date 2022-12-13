@@ -5,11 +5,7 @@
 
   
 
-<img  src="murple_logo.png"  alt="logo"  width="140"  height="auto"  />
 
-<br/>
-
-  
 
 <h3><b>README</b></h3>
 
@@ -47,7 +43,7 @@
 - [Run tests](#run-tests)
 
 - [Deployment](#triangular_flag_on_post-deployment)
-[My link to my portfolio with github pages] (https://dfsalam.github.io/portfolio/)
+[The link to my portfolio with github pages] (https://dfsalam.github.io/portfolio/)
 
 - [👥 Authors](#authors)
 
@@ -97,7 +93,7 @@
 
 <ul>
 
-<li><a  href="https://reactjs.org/">HTML and CSS</a></li>
+<li><a  href="">HTML and CSS</a></li>
 
 </ul>
 
@@ -125,7 +121,7 @@
 
 <ul>
 
-<li><a  href="https://www.postgresql.org/">There isn´t server.</a></li>
+<li><a  href="">There isn´t server.</a></li>
 
 </ul>
 
@@ -155,7 +151,7 @@
 
  
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo" href='https://dfsalam.github.io/portfolio/'></a>
 
   
 
@@ -300,12 +296,7 @@ I would like to thank all my coding partners at Microverse.
 
  
 
-## 📝 License <a name="license"></a>
-
-  
-
-This project is [MIT](./LICENSE) licensed.
-
-  
+## 📝 License <a name="license"></a>  
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.  
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
