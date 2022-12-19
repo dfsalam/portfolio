@@ -1,8 +1,8 @@
-let nav = document.querySelector('.nav-menu');
-let menu = document.querySelector('.hamb-menu');
+const nav = document.querySelector('.nav-menu');
+const menu = document.querySelector('.hamb-menu');
 
 function hambClick() {
-    menu.removeAttribute('hidden')
+  menu.removeAttribute('hidden');
 }
 
-nav.addEventListener('click',hambClick);
+nav.addEventListener('click', hambClick);
