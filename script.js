@@ -1,9 +1,8 @@
 const nav = document.querySelector('.nav-menu');
 const menu = document.querySelector('.hamb-menu');
 const close = document.querySelector('.hamb--close');
-const hTagsa= document.querySelector('.hamb--ha');
-const hTagsb= document.querySelector('.hamb--hb');
-const hTagsc= document.querySelector('.hamb--hc');
+const hTagsa = document.querySelectorAll('.hamb--h');
+
 
 function hambClick() {
   menu.removeAttribute('hidden');
@@ -15,6 +14,9 @@ function closeClick() {
 
 nav.addEventListener('click', hambClick);
 close.addEventListener('click', closeClick);
-hTagsa.addEventListener('click', closeClick);
-hTagsb.addEventListener('click', closeClick);
-hTagsc.addEventListener('click', closeClick);
+
+hTagsa.forEach(element =>  {
+  element.addEventListener('click', closeClick);
+})
+
+
