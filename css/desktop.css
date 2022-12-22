@@ -52,7 +52,7 @@
 
   /* Header */
   .container {
-    background-image: url('./Images/desktop-background.png');
+    background-image: url('../Images/desktop-background.png');
     background-repeat: no-repeat;
     background-size: initial;
     background-position: bottom right;
@@ -173,7 +173,7 @@
   }
 
   .about-me {
-    background-image: url('./Images/illustration-about me.png');
+    background-image: url('../Images/illustration-about me.png');
     background-repeat: no-repeat;
     background-size: initial;
     background-position: center right;
