@@ -1,0 +1,114 @@
+/* Pop up stytling */
+.display--block {
+  display: flex;
+  flex-direction: column;
+}
+
+.display--none {
+  display: none;
+}
+
+.block-scroll {
+  overflow: hidden;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 3%;
+  width: 94%;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: scroll;
+  
+}
+
+.popup--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 16px 16px 16px;
+  
+
+}
+
+.popup--languages {
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #091e42;
+  padding: 0;  
+}
+
+.popup--close {
+  position: absolute;
+  top: 20px;
+  right: 38px;
+}
+
+.popup--name {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.popup--paragraph {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  max-width: 310px;
+}
+
+.popup--image {
+  max-width: 311px;
+  
+}
+
+.popup--buttons {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.popup button {
+  text-align: center;  
+}
+
+/* Pop up stytling */
+
+@media (min-width: 768px) {
+  .popup--container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  } 
+
+  .popup--languages {
+    width: 100%;
+  }
+
+  .popup--imagecontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .popup--image {
+    width: 100%;
+    max-width: 650px;
+  }
+
+  .popup--paragraph {
+    width: 100%;
+    max-width: 424px;
+  }
+
+
+}
