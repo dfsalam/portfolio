@@ -13,8 +13,7 @@ const properties = [
 
   {
     'name': 'Website portfolio',
-    'description': `A daily selection of privately personalized reads; 
-    no accounts or sign-ups required. has been the industry's standard`,
+    'description': `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     'image': './Images/Cards/Mask_3-6.png',
     'technologies': ['html', 'bootstrap', 'ruby'],
     'live_version': 'https://covid19.who.int/',
@@ -78,8 +77,8 @@ properties.forEach((element) => {
   title.innerHTML = element['name']
 
   const paragraph = document.createElement('p')
-  paragraph.innerHTML = `A daily selection of privately personalized reads; 
-  no accounts or sign-ups required. has been the industry's standard`
+  paragraph.innerHTML = element['description']
+    
   paragraph.classList.add('card-paragraph')
 
   const uList = document.createElement('ul')
