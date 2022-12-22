@@ -9,6 +9,7 @@ const properties = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live_version: 'https://covid19.who.int/',
     source: 'https://github.com/dfsalam',
+    image_pop: './Images/Cards/pop1.png',
   },
 
   {
@@ -18,6 +19,7 @@ const properties = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live_version: 'https://covid19.who.int/',
     source: 'https://github.com/dfsalam',
+    image_pop: './Images/Cards/pop1.png',
   },
 
   {
@@ -28,6 +30,7 @@ const properties = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live_version: 'https://covid19.who.int/',
     source: 'https://github.com/dfsalam',
+    image_pop: './Images/Cards/pop1.png',
   },
 
   {
@@ -38,6 +41,7 @@ const properties = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live_version: 'https://covid19.who.int/',
     source: 'https://github.com/dfsalam',
+    image_pop: './Images/Cards/pop1.png',
   },
 
   {
@@ -48,6 +52,7 @@ const properties = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live_version: 'https://covid19.who.int/',
     source: 'https://github.com/dfsalam',
+    image_pop: './Images/Cards/pop1.png',
   },
 
   {
@@ -58,6 +63,7 @@ const properties = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live_version: 'https://covid19.who.int/',
     source: 'https://github.com/dfsalam',
+    image_pop: './Images/Cards/pop1.png',
   },
 ];
 let count = 1;
@@ -143,7 +149,7 @@ btn.forEach((e) => {
     seeSource.setAttribute('href', properties[number].source);
 
     document.querySelector('.popup--paragraph').innerHTML = properties[number].description;
-    document.querySelector('.popup--image').setAttribute('src', properties[number].image);
+    document.querySelector('.popup--image').setAttribute('src', properties[number].image_pop);
   });
 });
 
