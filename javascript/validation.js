@@ -1,18 +1,17 @@
 const email = document.querySelector('.form-email')
-const lower = email.value.toLowerCase()
 const button = document.querySelector('.btn')
 const label = document.querySelector('.form--error')
+const frmContact = document.getElementById('frmContact');
 
-button.addEventListener('click', () => {
-    console.log("click¡")
-    if (email.value == lower){
-        console.log("Equal")
-    }else{
-        console.log("Different")
-        label.style.display = 'block';
-        setTimeout(() => {label.style.display = 'none'}, 1000)
+frmContact.addEventListener('submit', (e) => {
+    e.preventDefault();
+    label.style.display = 'none';
+    if (email.value === email.value.toLowerCase()){
+        frmContact.submit();
+        return;
     }
 
+    label.style.display = 'block';
 });
 
 
