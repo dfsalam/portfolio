@@ -8,7 +8,7 @@ function hambClick() {
 }
 
 function closeClick() {
-  menu.setAttribute('hidden', 'hidden');
+  menu.setAttribute('display', 'hidden');
 }
 
 nav.addEventListener('click', hambClick);
