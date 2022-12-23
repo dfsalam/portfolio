@@ -460,8 +460,20 @@ a:visited {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 20px;
   color: #3c3a39;
+}
+
+.form--error {
+  display: none;
+  color:red;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-self: flex-start;
+  margin-bottom: 10px;
 }
 
 .btn {
