@@ -108,6 +108,7 @@ properties.forEach((element) => {
 
 /* Popup window open and close */
 const btn = document.querySelectorAll('.see--project--btn');
+
 const closeIcon = document.querySelector('.popup--close');
 
 const popup = document.querySelector('.popup');
