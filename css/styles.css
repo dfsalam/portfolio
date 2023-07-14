@@ -43,7 +43,7 @@ a:visited {
 
 /* Header */
 .container {
-  height: 590px;  
+  height: 590px;
   background: #1c1a19;
   background-image: url('../Images/Background.png');
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ a:visited {
   height: 48px;
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
 .nav-name {
@@ -84,7 +84,7 @@ a:visited {
 
 .nav-menu {
   color: #fff;
-  padding-right: 40px;  
+  padding-right: 40px;
   align-self: center;
 }
 
@@ -491,6 +491,7 @@ a:visited {
   align-content: flex-end;
   background-color: #1c1a19;
 }
+
 .form-icons img {
   color: #091e42;
   padding: 10px;

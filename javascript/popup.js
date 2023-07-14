@@ -1,7 +1,7 @@
 const properties = [
   {
     name: 'Retrench Pal',
-    description: `RetrenchPal is a web application developed with Ruby on Rails where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.`,
+    description: 'RetrenchPal is a web application developed with Ruby on Rails where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
     image: './Images/Cards/RetrenchPal.jpg',
     technologies: ['html', 'bootstrap', 'ruby on rails'],
     live_version: 'https://mysite-1w9b.onrender.com/',
@@ -21,7 +21,7 @@ const properties = [
 
   {
     name: 'Boyacá Pollution Metrics',
-    description: `Pollution Metrics App is a SPA that provides information about some pollution metrics for all the towns in the state of Boyacá in Colombia.`,
+    description: 'Pollution Metrics App is a SPA that provides information about some pollution metrics for all the towns in the state of Boyacá in Colombia.',
     image: './Images/Cards/Mask_4.png',
     technologies: ['React', 'Redux', 'CSS'],
     live_version: 'https://boyaca-pollution-metrics.onrender.com/',
@@ -31,7 +31,7 @@ const properties = [
 
   {
     name: 'Engineering Conference',
-    description: `The project consists of two pages, home and about. I started with the mobile version, and using media queries, the pages are made responsive for the desktop version. In the featured speakers section the information was inserted dynamically with JS.`,
+    description: 'The project consists of two pages, home and about. I started with the mobile version, and using media queries, the pages are made responsive for the desktop version. In the featured speakers section the information was inserted dynamically with JS.',
     image: './Images/Cards/conference.jpg',
     technologies: ['html', 'css', 'javascript'],
     live_version: 'https://dfsalam.github.io/engineering-conference/',
@@ -48,7 +48,7 @@ properties.forEach((element) => {
   section.setAttribute('id', count);
   count += 1;
 
-  section.style.backgroundColor = `black`;
+  section.style.backgroundColor = 'black';
 
   const title = document.createElement('h1');
   title.classList.add('card-title');
