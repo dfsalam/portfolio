@@ -14,19 +14,17 @@
     line-height: 20px;
   }
 
+  .navbar {
+    width: 100%;
+    position: fixed;
+  }
+
   .nav-media h3 {
     margin-left: 32px;
   }
 
   .nav-mail {
     margin-left: 32px;
-  }
-
-  .navbar {
-    background: #3c3a39;
-    height: 48px;
-    display: flex;
-    align-items: center;
   }
 
   .nav-name {
