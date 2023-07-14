@@ -1,69 +1,42 @@
 const properties = [
   {
-    name: 'Data Dashboard Healthcare',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-    printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-    only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    name: 'Retrench Pal',
+    description: `RetrenchPal is a web application developed with Ruby on Rails where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.`,
+    image: './Images/Cards/RetrenchPal.jpg',
+    technologies: ['html', 'bootstrap', 'ruby on rails'],
+    live_version: 'https://mysite-1w9b.onrender.com/',
+    source: 'https://github.com/dfsalam/ror-budget-app',
+    image_pop: './Images/Cards/RetrenchPal.jpg',
+  },
+
+  {
+    name: 'DD Eats',
+    description: 'DD Eats is a web application built with HTML, CSS, and JavaScript that shows different recipes. The application allows you to like and, after clicking on a recipe to see it in detail, make comments and see the previous comment list.',
+    image: './Images/Cards/DDEats.jpg',
+    technologies: ['html', 'bootstrap', 'javascript'],
+    live_version: 'https://dennis-every.github.io/dd_eats/dist/',
+    source: 'https://github.com/dfsalam/dd_eats',
+    image_pop: './Images/Cards/DDEats.jpg',
+  },
+
+  {
+    name: 'Boyacá Pollution Metrics',
+    description: `Pollution Metrics App is a SPA that provides information about some pollution metrics for all the towns in the state of Boyacá in Colombia.`,
     image: './Images/Cards/Mask_4.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    live_version: 'https://covid19.who.int/',
-    source: 'https://github.com/dfsalam',
-    image_pop: './Images/Cards/pop1.png',
+    technologies: ['React', 'Redux', 'CSS'],
+    live_version: 'https://boyaca-pollution-metrics.onrender.com/',
+    source: 'https://github.com/dfsalam/metrics-webapp',
+    image_pop: './Images/Cards/pollutionMetrics.jpg',
   },
 
   {
-    name: 'Website portfolio',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: './Images/Cards/Mask_3-6.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    live_version: 'https://covid19.who.int/',
-    source: 'https://github.com/dfsalam',
-    image_pop: './Images/Cards/pop1.png',
-  },
-
-  {
-    name: 'Profesional Art Printing Data More',
-    description: `A daily selection of privately personalized reads; 
-    no accounts or sign-ups required. has been the industry's standard`,
-    image: './Images/Cards/Mask_4.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    live_version: 'https://covid19.who.int/',
-    source: 'https://github.com/dfsalam',
-    image_pop: './Images/Cards/pop1.png',
-  },
-
-  {
-    name: 'Data Dashboard Healthcare',
-    description: `A daily selection of privately personalized reads; 
-    no accounts or sign-ups required. has been the industry's standard`,
-    image: './Images/Cards/Mask_4.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    live_version: 'https://covid19.who.int/',
-    source: 'https://github.com/dfsalam',
-    image_pop: './Images/Cards/pop1.png',
-  },
-
-  {
-    name: 'Website portfolio',
-    description: `A daily selection of privately personalized reads; 
-      no accounts or sign-ups required. has been the industry's standard`,
-    image: './Images/Cards/Mask_3-6.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    live_version: 'https://covid19.who.int/',
-    source: 'https://github.com/dfsalam',
-    image_pop: './Images/Cards/pop1.png',
-  },
-
-  {
-    name: 'Profesional Art Printing Data More',
-    description: `A daily selection of privately personalized reads; 
-      no accounts or sign-ups required. has been the industry's standard`,
-    image: './Images/Cards/Mask_4.png',
-    technologies: ['html', 'bootstrap', 'ruby'],
-    live_version: 'https://covid19.who.int/',
-    source: 'https://github.com/dfsalam',
-    image_pop: './Images/Cards/pop1.png',
+    name: 'Engineering Conference',
+    description: `The project consists of two pages, home and about. I started with the mobile version, and using media queries, the pages are made responsive for the desktop version. In the featured speakers section the information was inserted dynamically with JS.`,
+    image: './Images/Cards/conference.jpg',
+    technologies: ['html', 'css', 'javascript'],
+    live_version: 'https://dfsalam.github.io/engineering-conference/',
+    source: 'https://github.com/dfsalam/engineering-conference',
+    image_pop: './Images/Cards/conference.jpg',
   },
 ];
 let count = 1;
@@ -75,7 +48,7 @@ properties.forEach((element) => {
   section.setAttribute('id', count);
   count += 1;
 
-  section.style.backgroundImage = `url(${element.image})`;
+  section.style.backgroundColor = `black`;
 
   const title = document.createElement('h1');
   title.classList.add('card-title');

@@ -65,9 +65,7 @@ a:visited {
   height: 48px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  position: fixed;
+  align-items: center;  
 }
 
 .nav-name {
@@ -160,13 +158,6 @@ a:visited {
   justify-content: space-around;
 }
 
-.middle-section {
-  display: grid;
-  grid-template-rows: 950px 386px 386px 386px 386px 386px 386px;
-  grid-template-columns: auto;
-  margin: 0 24px 24px 24px;
-}
-
 /* Header */
 
 /* Works section */
@@ -183,7 +174,6 @@ a:visited {
   font-weight: 400;
   font-size: 40px;
   color: #1c1a19;
-  padding-bottom: 25px;
 }
 
 .works-line {
@@ -251,6 +241,7 @@ a:visited {
   width: 369px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 25px;
 }
 
 .card-title {
