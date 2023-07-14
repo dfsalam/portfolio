@@ -20,14 +20,7 @@
 
   .nav-mail {
     margin-left: 32px;
-  }
-
-  .navbar {
-    background: #3c3a39;
-    height: 48px;
-    display: flex;
-    align-items: center;    
-  }
+  } 
 
   .nav-name {
     font-family: 'Inter', sans-serif;

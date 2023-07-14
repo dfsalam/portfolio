@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: auto;
 }
 
 button {
@@ -44,9 +45,9 @@ a:visited {
 .container {
   height: 590px;  
   background: #1c1a19;
-  background-image: url('../Images/Background.jpeg');
+  background-image: url('../Images/Background.png');
   background-repeat: no-repeat;
-  /*background-size: initial;*/
+  background-size: initial;
   background-position: bottom right;
   width: 100%;
   display: flex;
@@ -84,7 +85,8 @@ a:visited {
 }
 
 .nav-menu {
-  margin-right: 25px;
+  color: #fff;
+  padding-right: 40px;  
   align-self: center;
 }
 
@@ -496,6 +498,11 @@ a:visited {
   display: flex;
   justify-content: center;
   align-content: flex-end;
+  background-color: #1c1a19;
+}
+.form-icons img {
+  color: #091e42;
+  padding: 10px;
 }
 
 .finalbar svg {
