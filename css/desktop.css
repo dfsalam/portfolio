@@ -17,6 +17,7 @@
   .navbar {
     width: 100%;
     position: fixed;
+    z-index: 999;
   }
 
   .nav-media h3 {
@@ -50,9 +51,9 @@
 
   /* Header */
   .container {
-    background-image: url('../Images/desktop-background.png');
+    background-image: url('../Images/alternative.jpg');
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: cover;
     background-position: bottom right;
     display: flex;
     flex-direction: row;
@@ -97,8 +98,9 @@
   .works-title {
     margin: 0;
     margin-right: 24px;
-    margin-top: 135px;
-    margin-bottom: 114px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding: 0;
   }
 
   .works {
@@ -122,6 +124,10 @@
 
   .works-subsection {
     margin-right: -120px;
+  }
+
+  .card-image {
+    max-width: 600px;
   }
 
   .card1 {
@@ -168,14 +174,16 @@
 
   .about {
     height: auto;
+    background-color: black;
   }
 
   .about-me {
-    background-image: url('../Images/illustration-about me.png');
+    background-image: url('../Images/about.jpg');
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: cover;
     background-position: center right;
     margin-left: 142px;
+    border: 0;
   }
 
   .about-me p {
@@ -223,5 +231,9 @@
 @media (min-width: 1300px) {
   .works-image1 {
     width: 610px;
+  }
+
+  .card-image {
+    max-width: 700px;
   }
 }

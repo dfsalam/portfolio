@@ -1,0 +1,49 @@
+.carrousel {
+  width: 100%;
+  max-width: 120em;
+  padding: 2em 0;
+  overflow: hidden;
+}
+
+.carrousel .grande {
+  width: 400%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel .card {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  min-height: 10vh;
+  border-radius: 5%;
+}
+
+.carrousel .puntos {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 0.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.carrousel .punto {
+  width: 2em;
+  height: 2em;
+  margin: 0 1em;
+  background-color: #b8b4b0;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #918f8e;
+}
+
+.carrousel .punto.activo {
+  background-color: #ff6b00;
+}
