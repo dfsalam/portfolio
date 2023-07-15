@@ -32,6 +32,14 @@ button:disabled {
   color: #5b5957;
 }
 
+a {
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
 a:link {
   text-decoration: none;
   color: #fff;
@@ -261,10 +269,9 @@ a:visited {
 
 .card-image {
   max-width: 280px;
-  aspect-ratio: 1367/699;  
+  aspect-ratio: 1367/699;
   margin: 0 10px;
   margin-bottom: 24px;
-
 }
 
 .card-paragraph {
@@ -305,6 +312,7 @@ a:visited {
   justify-content: space-between;
   padding: 25px;
 }
+
 /* About me section */
 .about {
   background-color: #1c1a19;
@@ -524,23 +532,17 @@ a:visited {
   height: auto;
 }
 
-a {
-  transition: transform 0.3s ease-in-out;
-}
-
-a:hover {
-  transform: scale(1.2);
-}
-
 @keyframes slideShakeAnimation {
   0% {
     transform: translateX(-100%);
     opacity: 0;
   }
+
   85% {
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     transform: translateX(0);
     animation-timing-function: ease-in-out;
