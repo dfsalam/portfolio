@@ -51,9 +51,9 @@
 
   /* Header */
   .container {
-    background-image: url('../Images/desktop-background.png');
+    background-image: url('../Images/alternative.jpg');
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: cover;
     background-position: bottom right;
     display: flex;
     flex-direction: row;
