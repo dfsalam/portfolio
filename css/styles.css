@@ -24,6 +24,7 @@ button:hover {
 button:active {
   background-color: #e05304;
   color: #f4f1f0;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 button:disabled {
@@ -521,4 +522,12 @@ a:visited {
 .finalbar svg {
   width: 100%;
   height: auto;
+}
+
+a {
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.2);
 }
