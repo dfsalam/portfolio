@@ -174,14 +174,16 @@
 
   .about {
     height: auto;
+    background-color: black;
   }
 
   .about-me {
-    background-image: url('../Images/illustration-about me.png');
+    background-image: url('../Images/about.jpg');
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: cover;
     background-position: center right;
     margin-left: 142px;
+    border: 0;
   }
 
   .about-me p {
