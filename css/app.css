@@ -1,24 +1,32 @@
 .carrousel{
-    width:90%;
+    width:100%;
     max-width: 120em;
-    padding:2em;    
+    padding: 2em;    
+    padding-left: 0;
+    padding-right: 0;
     overflow: hidden;
     background-color: blueviolet;
 }
 .carrousel .grande{
-    width: 200%;    
+    width: 400%;    
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;    
     padding:2em;
+    padding-left: 0;
+    padding-right: 0;
     transition: all .5s ease;
     transform: translateX(0%);
 }
 
-.carrousel .img{
-    width: calc( 100% / 2  - 2em);
-    min-height: 10vh;
+.carrousel .card{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    min-height: 10vh;  
+    
     
 }
 
