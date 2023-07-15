@@ -22,7 +22,7 @@ const properties = [
   {
     name: 'Boyacá Pollution Metrics',
     description: 'Pollution Metrics App is a SPA that provides information about some pollution metrics for all the towns in the state of Boyacá in Colombia.',
-    image: './Images/Cards/Mask_4.png',
+    image: './Images/Cards/pollution.jpg',
     technologies: ['React', 'Redux', 'CSS'],
     live_version: 'https://boyaca-pollution-metrics.onrender.com/',
     source: 'https://github.com/dfsalam/metrics-webapp',
