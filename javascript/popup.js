@@ -44,7 +44,7 @@ properties.forEach((element) => {
   const container = document.querySelector('.grande');
 
   const section = document.createElement('section');
-  section.classList.add('card');
+  section.classList.add('card');  
   section.setAttribute('id', count);
   count += 1;
 
@@ -54,6 +54,11 @@ properties.forEach((element) => {
   title.classList.add('card-title');
   title.innerHTML = element.name;
 
+  const image = document.createElement('img');
+  image.classList.add('card-image');
+  image.src = element.image;
+  image.alt = 'Image' + count;
+
   const paragraph = document.createElement('p');
   paragraph.innerHTML = element.description;
 
@@ -61,8 +66,10 @@ properties.forEach((element) => {
 
   const uList = document.createElement('ul');
   uList.classList.add('card-stack');
+
   container.appendChild(section);
   section.appendChild(title);
+  section.appendChild(image);
   section.appendChild(paragraph);
   section.appendChild(uList);
   const tech = element.technologies;
@@ -73,10 +80,23 @@ properties.forEach((element) => {
     uList.appendChild(li);
   });
 
-  const btn = document.createElement('button');
-  btn.classList.add('see--project--btn');
-  btn.innerHTML = 'See project';
-  section.appendChild(btn);
+  const seeLive = document.createElement('a');
+  const seeSource = document.createElement('a');
+
+  seeLive.setAttribute('href', element.live_version);
+  seeSource.setAttribute('href', element.source);
+  seeLive.setAttribute('target', "_blank");
+  seeSource.setAttribute('target', "_blank");
+  
+  seeLive.innerHTML = `<button type="button">See Live</button>`
+  seeSource.innerHTML = `<button type="button">See Source</button>`
+  const btnContainer = document.createElement('div');
+  btnContainer.classList.add('btnContainer');
+  
+  btnContainer.appendChild(seeLive);
+  btnContainer.appendChild(seeSource);
+  section.appendChild(btnContainer);
+
 });
 
 /* Popup window open and close */

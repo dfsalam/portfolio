@@ -170,6 +170,9 @@ a:visited {
 }
 
 .works-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -238,7 +241,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 369px;
+  align-items: center;
+  width: 375px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 25px;
@@ -254,15 +258,24 @@ a:visited {
   padding: 0;
 }
 
+.card-image {
+  max-width: 280px;
+  aspect-ratio: 4/3;  
+  margin: 0 10px;
+  margin-bottom: 24px;
+
+}
+
 .card-paragraph {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 0;
+  text-align: justify;
 }
 
 .card-stack {
@@ -283,6 +296,14 @@ a:visited {
   margin-right: 6px;
 }
 
+.btnContainer {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
 /* About me section */
 .about {
   background-color: #1c1a19;
