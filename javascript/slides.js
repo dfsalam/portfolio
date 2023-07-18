@@ -1,14 +1,14 @@
-const grande = document.querySelector('.grande');
-const punto = document.querySelectorAll('.punto');
+const bigContainer = document.querySelector('.bigContainer');
+const point = document.querySelectorAll('.point');
 
-punto.forEach((e, i) => {
-  punto[i].addEventListener('click', () => {
+point.forEach((e, i) => {
+  point[i].addEventListener('click', () => {
     const position = i;
     const operation = position * -25;
-    grande.style.transform = `translateX(${operation}%)`;
-    punto.forEach((e, i) => {
-      punto[i].classList.remove('activo');
+    bigContainer.style.transform = `translateX(${operation}%)`;
+    point.forEach((e, i) => {
+      point[i].classList.remove('activo');
     });
-    punto[i].classList.add('activo');
+    point[i].classList.add('activo');
   });
 });
