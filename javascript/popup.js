@@ -41,7 +41,7 @@ const properties = [
 ];
 let count = 1;
 properties.forEach((element) => {
-  const container = document.querySelector('.grande');
+  const container = document.querySelector('.bigContainer');
 
   const section = document.createElement('section');
   section.classList.add('card');

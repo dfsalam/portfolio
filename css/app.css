@@ -1,11 +1,11 @@
-.carrousel {
+.slides {
   width: 100%;
   max-width: 120em;
   padding: 2em 0;
   overflow: hidden;
 }
 
-.carrousel .grande {
+.slides .bigContainer {
   width: 400%;
   display: flex;
   flex-flow: row nowrap;
@@ -15,7 +15,7 @@
   transform: translateX(0%);
 }
 
-.carrousel .card {
+.slides .card {
   width: 95%;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -23,7 +23,7 @@
   border-radius: 5%;
 }
 
-.carrousel .puntos {
+.slides .points {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@
   list-style-type: none;
 }
 
-.carrousel .punto {
+.slides .point {
   width: 2em;
   height: 2em;
   margin: 0 1em;
@@ -44,6 +44,6 @@
   box-shadow: 5px 5px 10px #918f8e;
 }
 
-.carrousel .punto.activo {
+.slides .point.activo {
   background-color: #ff6b00;
 }
