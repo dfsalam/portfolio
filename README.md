@@ -67,7 +67,7 @@
 
   
 
-> Portfolio project was developed to practice the flexbox and grid concepts and also to practice responsive design.
+> Portfolio project was developed to practice the flexbox and grid concepts and also responsive design.
 
   
 
